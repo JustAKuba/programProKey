@@ -5,7 +5,7 @@ public class TruckRadio implements ICarRadio{
 
     //Constructor
     public TruckRadio() {
-        this.currentStation = RadioStations.KISS;
+        this.currentStation = RadioStations.ANTENA_1;
         this.currentVolume = 0;
         this.isOn = false;
     }
@@ -21,5 +21,25 @@ public class TruckRadio implements ICarRadio{
 
     public boolean getIsOn() {
         return isOn;
+    }
+
+    @Override
+    public void turnOn() {
+        this.isOn = true;
+    }
+
+    @Override
+    public void turnOff() {
+        this.isOn = false;
+    }
+
+    @Override
+    public void changeStation(RadioStations station) {
+        this.currentStation = station;
+    }
+
+    @Override
+    public void changeVolume(int volume) {
+        this.currentVolume = volume;
     }
 }

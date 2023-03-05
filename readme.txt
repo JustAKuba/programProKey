@@ -19,3 +19,7 @@ true                  <= Tohle je jestli je radio zapnute
 
 
 
+Na můj program se zkus koukat jen když nebudeš vědět co a jak :)
+
+
+

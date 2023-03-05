@@ -7,7 +7,7 @@ public class TruckRadio implements ICarRadio{
     public TruckRadio() {
         this.currentStation = RadioStations.ANTENA_1;
         this.currentVolume = 0;
-        this.isOn = false;
+        this.isOn = true;
     }
 
     //Getters
